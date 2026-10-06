@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Fixed
 - Fix Keycloak FGAP version detection using wrong feature names [#1610](https://github.com/adorsys/keycloak-config-cli/issues/1610)
+- Fix organization import erasing the Keycloak 26.8 domain routing (`identityProviderAlias`, `autoRedirect`) on every run and failing to create an organization with a routed domain. Identity providers are now linked before the organization is updated, routing not declared in the import is kept, and an empty `identityProviderAlias` removes it [#1691](https://github.com/adorsys/keycloak-config-cli/issues/1691)
 
 ## [6.5.1] - 2026-05-22
 

@@ -787,6 +787,9 @@
                             <excludes>
                                 <exclude>**/OrganizationImportService.java</exclude>
                                 <exclude>**/OrganizationRepository.java</exclude>
+                                <exclude>**/RoutedOrganizationDomainRepresentation.java</exclude>
+                                <exclude>**/OrganizationDomainsResource.java</exclude>
+                                <exclude>**/OrganizationDomainsRepresentation.java</exclude>
                             </excludes>
                             <testExcludes>
                                 <exclude>**/OrganizationImportServiceTest.java</exclude>
@@ -926,6 +929,9 @@ import org.keycloak.representations.userprofile.config.UPConfig;</token>
                             <excludes>
                                 <exclude>**/OrganizationImportService.java</exclude>
                                 <exclude>**/OrganizationRepository.java</exclude>
+                                <exclude>**/RoutedOrganizationDomainRepresentation.java</exclude>
+                                <exclude>**/OrganizationDomainsResource.java</exclude>
+                                <exclude>**/OrganizationDomainsRepresentation.java</exclude>
                             </excludes>
                             <testExcludes>
                                 <exclude>**/OrganizationImportServiceTest.java</exclude>
@@ -1058,6 +1064,9 @@ import org.keycloak.representations.userprofile.config.UPConfig;</token>
                             <excludes>
                                 <exclude>**/OrganizationImportService.java</exclude>
                                 <exclude>**/OrganizationRepository.java</exclude>
+                                <exclude>**/RoutedOrganizationDomainRepresentation.java</exclude>
+                                <exclude>**/OrganizationDomainsResource.java</exclude>
+                                <exclude>**/OrganizationDomainsRepresentation.java</exclude>
                             </excludes>
                             <testExcludes>
                                 <exclude>**/OrganizationImportServiceTest.java</exclude>
@@ -1113,6 +1122,9 @@ import org.keycloak.representations.userprofile.config.UPConfig;</token>
                         <configuration>
                             <excludes>
                                 <exclude>**/OrganizationRepository.java</exclude>
+                                <exclude>**/RoutedOrganizationDomainRepresentation.java</exclude>
+                                <exclude>**/OrganizationDomainsResource.java</exclude>
+                                <exclude>**/OrganizationDomainsRepresentation.java</exclude>
                                 <exclude>**/OrganizationImportService.java</exclude>
                             </excludes>
                             <testExcludes>
@@ -1169,6 +1181,9 @@ import org.keycloak.representations.userprofile.config.UPConfig;</token>
                         <configuration>
                             <excludes>
                                 <exclude>**/OrganizationRepository.java</exclude>
+                                <exclude>**/RoutedOrganizationDomainRepresentation.java</exclude>
+                                <exclude>**/OrganizationDomainsResource.java</exclude>
+                                <exclude>**/OrganizationDomainsRepresentation.java</exclude>
                                 <exclude>**/OrganizationImportService.java</exclude>
                             </excludes>
                             <testExcludes>
